@@ -24,6 +24,14 @@ const teamMembers = [
     x: "https://x.com/amiteshhsingh",
   },
   {
+    name: "Arvindra Ahirwar",
+    title: "Software Engineer",
+    image: "https://github.com/arvindra1.png",
+    linkedin: "https://www.linkedin.com/in/arvindra-ahirwar-41b3441b7",
+    github: "https://github.com/arvindra1",
+    // x: "https://x.com/amiteshhsingh",
+  },
+  {
     name: "Yesveer Singh",
     title: "Software Engineer",
     image: "https://github.com/Yesveer.png",
