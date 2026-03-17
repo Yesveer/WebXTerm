@@ -8,13 +8,13 @@ import SectionHeading from "@/components/SectionHeading";
 import { sendContactEmail } from "@/app/actions/contact";
 
 const teamMembers = [
-  {
-    name: "Rishabh Aggarwal",
-    title: "Software Engineer",
-    image: "https://github.com/rishi97.png",
-    linkedin: "https://www.linkedin.com/in/rishabh-aggarwal-r2000/",
-    github: "https://github.com/rishi97",
-  },
+  // {
+  //   name: "Rishabh Aggarwal",
+  //   title: "Software Engineer",
+  //   image: "https://github.com/rishi97.png",
+  //   linkedin: "https://www.linkedin.com/in/rishabh-aggarwal-r2000/",
+  //   github: "https://github.com/rishi97",
+  // },
   {
     name: "Amitesh Singh",
     title: "Software Engineer",
