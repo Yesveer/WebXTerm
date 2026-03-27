@@ -30,6 +30,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-KBS8C7PB');`,
           }}
         />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-GVW0QGERJB"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-GVW0QGERJB');`,
+          }}
+        />
       </head>
       <body>
         <noscript>
