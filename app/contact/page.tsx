@@ -8,13 +8,13 @@ import SectionHeading from "@/components/SectionHeading";
 import { sendContactEmail } from "@/app/actions/contact";
 
 const teamMembers = [
-  // {
-  //   name: "Rishabh Aggarwal",
-  //   title: "Software Engineer",
-  //   image: "https://github.com/rishi97.png",
-  //   linkedin: "https://www.linkedin.com/in/rishabh-aggarwal-r2000/",
-  //   github: "https://github.com/rishi97",
-  // },
+  {
+    name: "Rishabh Aggarwal",
+    title: "Software Engineer",
+    image: "https://github.com/rishi97.png",
+    linkedin: "https://www.linkedin.com/in/rishabh-aggarwal-r2000/",
+    github: "https://github.com/rishi97",
+  },
   {
     name: "Amitesh Singh",
     title: "Software Engineer",
@@ -177,7 +177,7 @@ export default function ContactPage() {
               title={<>Meet the <span className="text-gradient-green">Team</span></>}
               description="The people behind WebXterm."
             />
-            <div className="grid sm:grid-cols-3 gap-8 max-w-2xl mx-auto">
+            <div className="grid sm:grid-cols-4 gap-8 max-w-4xl mx-auto">
               {teamMembers.map((member, i) => (
                 <motion.div
                   key={member.name}
