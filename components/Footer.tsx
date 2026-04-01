@@ -68,7 +68,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 pt-6 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2024 WebXterm. All rights reserved.
+            © 2026 WebXterm. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground font-mono">
             <span className="text-primary">$</span> echo &quot;Built for developers, by developers&quot;

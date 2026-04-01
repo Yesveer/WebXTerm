@@ -171,7 +171,7 @@ export default function ContactPage() {
           </div>
 
           {/* Team Section */}
-          <div className="mt-24 max-w-4xl mx-auto">
+          {/* <div className="mt-24 max-w-4xl mx-auto">
             <SectionHeading
               badge="Team"
               title={<>Meet the <span className="text-gradient-green">Team</span></>}
@@ -216,7 +216,7 @@ export default function ContactPage() {
                 </motion.div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
