@@ -233,7 +233,7 @@ export default function LandingPage() {
                   transition={{ duration: 2, repeat: Infinity }}
                   className="w-1.5 h-1.5 rounded-full bg-primary"
                 />
-                Terminal Management Platform
+                Machines Management Platform
               </motion.div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-[1.1]">
