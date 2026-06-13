@@ -87,8 +87,8 @@ export default function ContactPage() {
                   </div>
                   <h3 className="font-semibold">Email</h3>
                 </div>
-                <a href="mailto:kaalbhairavy@gmail.com" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                  kaalbhairavy@gmail.com
+                <a href="mailto:info@webxterm.me" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                  info@webxterm.me
                 </a>
               </div>
 
