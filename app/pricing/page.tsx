@@ -27,6 +27,7 @@ export default function PricingPage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <SectionHeading
+            as="h1"
             badge="Pricing"
             title={<>Choose Your <span className="text-gradient-green">Edition</span></>}
             description="Start free with Community. Upgrade to Enterprise for advanced security and organization features."

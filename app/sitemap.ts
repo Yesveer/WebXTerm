@@ -1,8 +1,16 @@
 import type { MetadataRoute } from "next";
+import { comparisons } from "@/lib/comparisons";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://webxterm.me";
   const lastModified = new Date();
+
+  const comparisonRoutes: MetadataRoute.Sitemap = comparisons.map((c) => ({
+    url: `${baseUrl}/vs/${c.slug}`,
+    lastModified,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
 
   return [
     {
@@ -41,6 +49,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/vs`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    ...comparisonRoutes,
     {
       url: `${baseUrl}/contact`,
       lastModified,

@@ -8,9 +8,12 @@ interface SectionHeadingProps {
   title: ReactNode;
   description?: string;
   className?: string;
+  /** Heading level for the title. Use "h1" for the primary page heading. */
+  as?: "h1" | "h2";
 }
 
-export default function SectionHeading({ badge, title, description, className = "" }: SectionHeadingProps) {
+export default function SectionHeading({ badge, title, description, className = "", as = "h2" }: SectionHeadingProps) {
+  const Heading = as;
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -24,9 +27,9 @@ export default function SectionHeading({ badge, title, description, className = 
           {badge}
         </span>
       )}
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-4">
+      <Heading className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-4">
         {title}
-      </h2>
+      </Heading>
       {description && (
         <p className="text-lg text-muted-foreground">{description}</p>
       )}

@@ -12,6 +12,8 @@ import TerminalWindow from "@/components/TerminalWindow";
 import TypingAnimation from "@/components/TypingAnimation";
 import SectionHeading from "@/components/SectionHeading";
 import FeatureCard from "@/components/FeatureCard";
+import FAQ from "@/components/FAQ";
+import { homepageFaqs } from "@/lib/faq-data";
 
 // ─── Animated counter ────────────────────────────────────────────────────────
 function Counter({ to, suffix = "", prefix = "" }: { to: number; suffix?: string; prefix?: string }) {
@@ -703,6 +705,17 @@ export default function LandingPage() {
               View full pricing details <ArrowRight className="h-3 w-3" />
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* ── FAQ ───────────────────────────────────────────────────────────── */}
+      <section className="py-20 border-t border-border">
+        <div className="container mx-auto px-4">
+          <FAQ
+            items={homepageFaqs}
+            title={<>Frequently Asked <span className="text-gradient-green">Questions</span></>}
+            description="Everything you need to know about WebXterm — secure browser SSH, pricing, architecture, and platform support."
+          />
         </div>
       </section>
 

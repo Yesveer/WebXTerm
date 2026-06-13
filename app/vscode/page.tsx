@@ -270,6 +270,7 @@ export default function VSCodePage() {
         ))}
         <div className="container mx-auto px-4 relative">
           <SectionHeading
+            as="h1"
             badge="VSAY VS Code Extension"
             title={<>Infrastructure Access <span className="text-gradient-green">Inside Your IDE</span></>}
             description="Browse machines, open terminal sessions, forward ports — all from the VS Code sidebar. Your JWT token lives only in memory for the current session."

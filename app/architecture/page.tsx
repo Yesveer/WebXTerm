@@ -215,6 +215,7 @@ export default function ArchitecturePage() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-primary/5 rounded-full blur-3xl pointer-events-none" />
         <div className="container mx-auto px-4 relative">
           <SectionHeading
+            as="h1"
             badge="Architecture"
             title={<>How <span className="text-gradient-green">WebXTerm</span> Works</>}
             description="Agent-based, zero-trust architecture. The agent connects outbound — no open ports, no VPN, no firewall changes."

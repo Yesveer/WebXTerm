@@ -153,6 +153,7 @@ export default function CLIPage() {
         ))}
         <div className="container mx-auto px-4 relative">
           <SectionHeading
+            as="h1"
             badge="VSAY Shell CLI"
             title={<>Terminal Access from <span className="text-gradient-green">Your Command Line</span></>}
             description="A single static binary with no dependencies. Install once, connect to any of your registered machines from any terminal."

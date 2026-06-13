@@ -115,22 +115,15 @@ export const metadata: Metadata = {
     title: "WebXterm – Web Terminal & Browser SSH for Your Infrastructure",
     description:
       "Access any server securely from your browser. WebXterm provides web-based SSH terminal access, CLI, and VS Code extension for managing all your infrastructure.",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "WebXterm – Secure Web Terminal Platform",
-      },
-    ],
+    // Social preview image is generated dynamically by app/opengraph-image.tsx
   },
   twitter: {
     card: "summary_large_image",
     title: "WebXterm – Web Terminal & Browser SSH",
     description:
       "Secure browser-based SSH terminal for servers, laptops & bare-metal. Access your infrastructure from anywhere.",
-    images: ["/og-image.png"],
     creator: "@webxterm",
+    // Card image is generated dynamically by app/twitter-image.tsx
   },
   alternates: {
     canonical: "https://webxterm.me",
@@ -187,6 +180,43 @@ export default function RootLayout({
                 "https://docs.webxterm.me",
                 "https://community.webxterm.me",
               ],
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "WebXterm",
+              url: "https://webxterm.me",
+              logo: "https://webxterm.me/icon.png",
+              description:
+                "WebXterm provides secure browser-based SSH terminal access, a CLI, and a VS Code extension for managing servers, laptops, and bare-metal infrastructure.",
+              sameAs: [
+                "https://console.webxterm.me",
+                "https://docs.webxterm.me",
+                "https://community.webxterm.me",
+              ],
+              contactPoint: {
+                "@type": "ContactPoint",
+                contactType: "customer support",
+                url: "https://webxterm.me/contact",
+              },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "WebXterm",
+              url: "https://webxterm.me",
+              description:
+                "Secure web terminal platform — browser SSH, CLI, and VS Code extension for your infrastructure.",
             }),
           }}
         />

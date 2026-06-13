@@ -66,6 +66,7 @@ export default function ContactPage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <SectionHeading
+            as="h1"
             badge="Contact"
             title={<>Get in <span className="text-gradient-green">Touch</span></>}
             description="Have questions? We'd love to hear from you."

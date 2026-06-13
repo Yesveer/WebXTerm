@@ -8,6 +8,7 @@ const footerLinks = {
     { label: "CLI", href: "/cli" },
     { label: "VS Code Extension", href: "/vscode" },
     { label: "Pricing", href: "/pricing" },
+    { label: "Compare", href: "/vs" },
   ],
   Resources: [
     { label: "Documentation", href: "https://docs.webxterm.me/", external: true },

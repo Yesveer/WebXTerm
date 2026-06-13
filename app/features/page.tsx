@@ -141,6 +141,7 @@ export default function FeaturesPage() {
         ))}
         <div className="container mx-auto px-4 relative">
           <SectionHeading
+            as="h1"
             badge="Features"
             title={<>Powerful Tools for <span className="text-gradient-green">Infrastructure Management</span></>}
             description="Everything you need to securely access, monitor, and manage your machines — from any browser, IDE, or terminal."
