@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pricing – Free Community & Enterprise Edition",
+  title: "Pricing – Free Trial, Professional, Business & Enterprise",
   description:
-    "WebXterm is free forever with the Community edition. Upgrade to Enterprise for mTLS, OIDC/SSO, multi-tenancy, and priority support. No credit card required to start.",
+    "Start WebXterm free for 30 days. Pay per machine — Professional at ₹499/machine/mo, Business at ₹399/machine/mo, or a custom Enterprise plan with air-gapped deployment, SSO/OIDC, and SOC2/ISO reports. Unlimited users on every tier.",
   keywords: [
     // Free tier
     "free web terminal",
